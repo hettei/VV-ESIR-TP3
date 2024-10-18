@@ -37,6 +37,8 @@ That leads us to the following initial set of inputs:
 - multi char, balanced, good nesting: "({{([])}})[{}]"
 - multi char, balanced, bad nesting: "(([)){]}"
 
-2. We evaluated test coverage with jacoco. The coverage report detected three partially covered lines in an if case. However, we are not sure what is causing this, as the corresponding tests seem to be implemented.
+2. We evaluated test coverage with jacoco. The coverage report indicated a coverage of 100%.
 
-3. 
+3. We evaluated test coverage with jacoco. The coverage report reported a branch coverage of 89% with three partially covered lines in an if case. However, we are not sure what is causing this, as the corresponding tests seem to have been implemented.
+
+4. We ran mutation tests with PIT. We achieved a mutation score of 100% with 0 live mutants.
