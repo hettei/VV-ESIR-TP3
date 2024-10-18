@@ -26,3 +26,15 @@ Use the project in [tp3-balanced-strings](../code/tp3-balanced-strings) to compl
 
 ## Answer
 
+1. We identified 3 characteristics: the size of the string (empty, one character, multiple characters), the "balanceness" of the string (too many opening, too many closing, balanced), and the nestedness of the string (good nesting, bad nesting).
+That leads us to the following initial set of inputs: 
+- empty string : ""
+- one char, too many closed: "("
+- one char, too many opened: ")"
+- one char, balanced: "a"
+- multi char, too many open: "({}"
+- multi char, too many closed: "{}]"
+- multi char, balanced, good nesting: "({{([])}})[{}]"
+- multi char, balanced, bad nesting: "(([)){]}"
+
+2. 
